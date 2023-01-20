@@ -1,0 +1,64 @@
+body{
+  background-color: skyblue;
+  font-family: cursive;
+}
+.quiz{
+  background-color: yellow;
+  border: 5px double skyblue;
+  width: 450px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: navy;
+}
+.quiz{
+  background-color: yellow;
+  border: 5px double rebeccapurple;
+  width: 450px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: darkslategray;
+}
+.score-section{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+.answer-section{
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.question-section{
+  background-color: sans-serif;
+  font-size: 30px;
+  color: red;
+  text-shadow: 5px 5px 6px goldenrod;
+} 
+button{
+  background-color: bisque;
+  color: blueviolet;
+  border-radius: 50px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: monospace;
+}
+button:hover{
+  background-color: black;
+  color: coral;
+}
+.question-text{
+  color: coral;
+  text-shadow: 5px 5px 6px black;
+}
+ 
+
